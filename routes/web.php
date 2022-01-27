@@ -25,6 +25,3 @@ Route::get('/logout', [AuthController::class, 'logout'])->name('logout');
 Route::get('dashboard', function () {
     return view('dashboard');
 })->name('dashboard')->middleware('auth');
-
-
-Route::post('/photo', [PhotoController::class,'photo']);
