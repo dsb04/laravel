@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\DB;
 use App\Repositories\PostRepository;
 use Illuminate\Support\Facades\Storage;
 
-class PostSevice
+class PostService
 {
     /**
      * @var PostRepository

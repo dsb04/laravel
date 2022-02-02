@@ -54,7 +54,7 @@ class PostController extends Controller
      */
     public function store(StorePostRequest $request)
     {
-        $input = $request->only('desscription');
+        $input = $request->only('description');
         $input['user_id'] = auth()->id();
         $response = $this->service->store($input,$request->photo);
        
