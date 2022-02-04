@@ -36,5 +36,5 @@ class PostService
  }
             DB::commit();
             return['success'=>true,'message'=>'Post crado com sucesso','data'=>$post];
-    }
+}
 }
